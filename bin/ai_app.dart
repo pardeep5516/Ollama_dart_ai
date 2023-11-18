@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:ai_app/src/ollama_base.dart';
+import 'package:ai_app_ollama/src/ollama_base.dart';
 
 void main() async {
   // Create an Ollama instance

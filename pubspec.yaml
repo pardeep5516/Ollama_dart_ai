@@ -1,6 +1,7 @@
-name: ai_app
-description: A sample command-line application.
+name: ai_app_ollama
+description: A Dart Plugin which can be used to make api request to Ollama AI on localhost
 version: 1.0.0
+homepage: https://ollama.ai/
 # repository: https://github.com/my_org/my_repo
 
 environment:
@@ -12,4 +13,3 @@ dependencies:
 
 dev_dependencies:
   lints: ^2.0.0
-  test: ^1.21.0
