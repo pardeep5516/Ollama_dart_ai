@@ -1,6 +1,6 @@
 name: ai_app_ollama
 description: A Dart Plugin which can be used to make api request to Ollama AI on localhost
-version: 1.0.0
+version: 1.0.1
 homepage: https://ollama.ai/
 # repository: https://github.com/my_org/my_repo
 

@@ -9,16 +9,16 @@ void main() async {
   // Generate a response from a model
   while (true) {
     stdout.write('AI Generated prompt:  \n');
-    stdout.write('Query: ');
+    stdout.write('Me: ');
     String? question = stdin.readLineSync()!;
-    final response = await ollama.generate(question, model: 'mistral');
+    final response = ollama.generate(question, model: 'mistral');
 
     if (question == "bye") {
       break;
     }
 
 // Print the response
-    stdout.write('Answer: \n');
+    stdout.write('Ollama: \n');
     await for (final chunk in response) {
       stdout.write(chunk.text);
     }
